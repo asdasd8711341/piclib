@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    config:
+      #      uri:  http://admin:a@localhost:7301/eureka
+      name: base-microservice-zuul-gateway-config      #要从github上读取的配置文件名
+      profile:  beta     #激活的环境
+      label:  main     #git 分支
+      username: admin   #配置中心的用户名    得加！！！
+      password: a
+      discovery:
+        enabled: true   # 通过配置中心加载配置文件
+        service-id: BASE-MICROSERVICE-CONFIG   # 在eureka之中注册的服务ID
+  security:
+    user:
+      name: admin
+      password: a
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:a@localhost:7301/eureka

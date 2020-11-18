@@ -3,6 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
+        <module>base-microservice-config</module>
+        <module>base-microservice-security</module>
+        <module>base-microservice-hystrix-dashboard</module>
+        <module>base-microservice-hystrix-turbine</module>
+        <module>base-microservice-zuul-gateway</module>
+        <module>base-microservice-ha-eureka1</module>
+        <module>base-microservice-hystrix-dashboard</module>
         <module>base-microservice-eureka</module>
     </modules>
 
@@ -29,6 +36,7 @@
             <scope>runtime</scope>
             <optional>true</optional>  <!-- 标记依赖是否可传递,标记为true表示可以传递依赖，以避免包冲突 -->
         </dependency>
+<!--        自动生成get set tostring-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
