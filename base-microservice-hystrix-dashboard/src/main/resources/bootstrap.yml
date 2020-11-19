@@ -18,3 +18,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://admin:a@localhost:7301/eureka
+  instance:
+    instance-id: base-microservice-hystrix-dashboard

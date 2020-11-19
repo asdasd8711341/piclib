@@ -4,6 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>base-microservice-config</module>
+        <module>base-microservice-config2</module>
+        <module>base-microservice-config3</module>
         <module>base-microservice-security</module>
         <module>base-microservice-hystrix-dashboard</module>
         <module>base-microservice-hystrix-turbine</module>

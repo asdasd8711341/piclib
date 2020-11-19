@@ -18,3 +18,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://admin:a@localhost:7301/eureka
+    register-with-eureka: false
