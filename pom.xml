@@ -13,6 +13,8 @@
         <module>base-microservice-ha-eureka1</module>
         <module>base-microservice-hystrix-dashboard</module>
         <module>base-microservice-eureka</module>
+        <module>microservice-api</module>
+        <module>microservice-provider-hystrix</module>
     </modules>
 
     <groupId>com.gsn.pics</groupId>
@@ -81,7 +83,18 @@
                 <artifactId>mapper-spring-boot-starter</artifactId>
                 <version>2.0.4</version>
             </dependency>
+            <dependency>
+                <groupId>com.gsn.pics</groupId>
+                <artifactId>microservice-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gsn.pics</groupId>
+                <artifactId>base-microservice-security</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
+
     </dependencyManagement>
 
     <build>
