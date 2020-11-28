@@ -15,6 +15,7 @@
         <module>piclib-domain</module>
         <module>piclib-restapi</module>
         <module>piclib-client</module>
+        <module>piclib-client-zuul</module>
     </modules>
 
     <groupId>com.gsn.pics</groupId>

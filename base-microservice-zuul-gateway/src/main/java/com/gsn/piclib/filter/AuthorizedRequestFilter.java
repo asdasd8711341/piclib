@@ -28,7 +28,7 @@ public class AuthorizedRequestFilter extends ZuulFilter {
         return true;
     }
 
-    @Override
+    @Override       //这个用于将敏感信息  admin:a 存入到请求头
     public Object run() throws ZuulException {
         RequestContext currentContext = RequestContext.getCurrentContext() ; // 获取当前请求的上下文
         String auth = "admin:a"; // 认证的原始信息

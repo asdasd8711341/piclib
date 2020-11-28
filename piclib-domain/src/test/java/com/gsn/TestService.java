@@ -42,7 +42,7 @@ public class TestService {
     @Test
     public void testSave() {
         Random r = new Random();
-        PicDomain picDomain = new PicDomain(0, "new pic" + r.nextInt(9999), "very very test");
+        PicDomain picDomain = new PicDomain(7, "new pic" + r.nextInt(9999), "very very test");
         picService.save(picDomain);
         logger.info("新增的产品编号:" + picDomain.getId());
         //断言.
