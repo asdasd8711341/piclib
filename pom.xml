@@ -12,9 +12,9 @@
         <module>base-microservice-zuul-gateway</module>
         <module>base-microservice-ha-eureka1</module>
         <module>base-microservice-hystrix-dashboard</module>
-        <module>base-microservice-eureka</module>
-        <module>microservice-api</module>
-        <module>microservice-provider-hystrix</module>
+        <module>piclib-domain</module>
+        <module>piclib-restapi</module>
+        <module>piclib-client</module>
     </modules>
 
     <groupId>com.gsn.pics</groupId>
